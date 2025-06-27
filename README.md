@@ -1,2 +1,2 @@
-# 🗣️ Local TTS App (Coqui)
+# 🗣️ TTS (Coqui) App & Container
 
