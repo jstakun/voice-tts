@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends git ffmpeg espe
 # Switch to non-root user
 USER appuser
 
-# Create and activate virtual environment + install Python packages
+# Create and activate virtual environment + install Python packages + download tts model
 RUN python3 -m venv $VENV_PATH \
     && $VENV_PATH/bin/pip install --upgrade pip \
     && $VENV_PATH/bin/pip install fastapi uvicorn coqui-tts \
