@@ -1,4 +1,4 @@
 # 🗣️ TTS (Coqui) App & Container
 
-Edit and execute biuld_push.sh
+Edit and execute build_push.sh to generate container image
 
